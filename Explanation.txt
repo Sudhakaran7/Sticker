@@ -1,0 +1,57 @@
+You are given with n number of sticker which contains words, and a target is also given,
+you have to frame the target word with the minimum number of stickers find the number of stickers used to form the target
+Note: each sticker have infinte amount
+
+Input Description:
+Stickers of words in a list
+target word
+
+Output Description:
+the number of stickers used to form the target
+
+Sample Input:
+with example science
+thehat
+
+Sample Output:
+3
+
+Explanation:
+We can use 2 "with" stickers, and 1 "example" sticker.
+After cutting and rearrange the letters of those stickers, we can form the target "thehat".
+so the output is 3
+
+Sample Input:
+gold silver aluminium
+guvi
+
+Sample Output:
+3
+
+Sample Input:
+hello world coders
+lord
+
+Sample Output:
+1
+
+Sample Input:
+qwerty leads to board
+leat
+
+Sample Output:
+2
+
+Sample Input:
+cat bat ball
+tabal
+
+Sample Output:
+2
+
+Sample Input:
+point match board
+torch
+
+Sample Output:
+2
